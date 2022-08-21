@@ -1,0 +1,1 @@
+# Detection-of-covid-19-cases-using-Supervised-Learning
