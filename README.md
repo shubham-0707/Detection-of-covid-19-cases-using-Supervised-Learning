@@ -1,1 +1,12 @@
 # Detection-of-covid-19-cases-using-Supervised-Learning
+- In this project I have downloaded a publicly available data from Kaggle website.
+- And then the data is cleaned and checked for null values
+- Then data is checked for duplicate values and then duplicate values are removed.
+- Then the data is divided into four parts i.e. x_train ,y_train , x-test , y_test using sk_learn library.
+- And then using Logistic Regression the model is trained.
+- Then the accuracy is checked and the accuracy was way less than the desired.
+- To increase the accuracy I have used RandomForestClassifier to train the model.
+- And after using the RandomForestClassifier the model was trained using the XGBoost Classifier.
+- At last the final accuracy score of the model wad 91.59% which is a decent score but not best.
+- This model is working fine in detecting the probability of covid-19 test result based on the symptoms provided and gender provided.
+- If anyone wants to work on this project or do correction in this model you are most welcome.
